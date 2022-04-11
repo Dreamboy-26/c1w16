@@ -13,6 +13,7 @@ const CartButton = () => {
     }
 
     const handleClick=()=>{
+      
   
     }
   return <>
@@ -26,7 +27,8 @@ const CartButton = () => {
       <p className="count-item">{count}</p>
       <button onClick={handleInc} >+</button>
   </div>
-  <button className="cart" onClick={handleClick}>Add To Cart  +</button>
+ <button className="cart" onClick={handleClick}>Add To Cart  +</button>
   </>;
-};
+}
+
 export default CartButton
