@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+ width: 97%;
+ margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+}
+
+.innerContainer{
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.price{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.countButton{
+  display: flex;
+
+  
+}
+.countButton>button{
+
+  width: 40px;
+  height: 30px;
+  margin: auto;
+}
+
+.innerContainer>h3{
+  float: left;
+}
+
+.mrp{
+  text-decoration: line-through;
+  
+}
+
+.cart{
+  width: 80%;
+  background-color: blue;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+}
