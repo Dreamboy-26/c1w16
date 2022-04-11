@@ -58,7 +58,7 @@
 
 .countButton{
   display: flex;
-
+margin-bottom: 2px;
   
 }
 .countButton>button{
